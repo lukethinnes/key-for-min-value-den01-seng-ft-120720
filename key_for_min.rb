@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   newArr = []
   name_hash.each do |key, value|
-    if value.is_a? numeric
+    if value.is_a? Integer => true
       value = newArr.push
     end
     newArr.sort
