@@ -3,7 +3,6 @@
 
 def key_for_min_value(name_hash)
   newArr = []
-  class getInt {
   name_hash.each do |key, value|
     if value.is_a? Integer => true
       value = newArr.push
@@ -11,6 +10,5 @@ def key_for_min_value(name_hash)
     newArr.sort
     return newArr[0]
   end
-}
   nil
 end
