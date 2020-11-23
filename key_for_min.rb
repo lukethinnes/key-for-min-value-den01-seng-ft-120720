@@ -10,5 +10,5 @@ def key_for_min_value(name_hash)
     newArr.sort
     return newArr[0]
   end
-  return nil
+  nil
 end
